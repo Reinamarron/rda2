@@ -1,12 +1,15 @@
 /* Mobile first */
 /* screen 230px-550px */
 
-img {
-  width: 100%;
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.12rem;
+  background-color: ;
 }
 
-div {
-  background-color: ;
+img {
+  width: 100%;
 }
 
 .header {
@@ -22,35 +25,31 @@ div {
 }
 
 .pic_container {
-  width: 90%;
+  width: 20%;
   max-width: 980px;
-  padding: 40px;
-  border: 20px solid orangered;
+
+  border: 2px solid orangered;
   margin: 0 auto;
 }
-
 
 /* Desktop */
 /* screen 550px+ */
 
-
-header{
+header {
   height: 50%;
- }
-
- body{
-  display:flex;
 }
 
-.gallery{
-
+.gallery {
   flex-direction: column;
-
 }
 
+@media (min-width: 550px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
-
-
-@media(min-width: 550px){
- 
+#grad {
+  background-image: linear-gradient(red, yellow);
 }
