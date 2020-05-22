@@ -1,0 +1,56 @@
+/* Mobile first */
+/* screen 230px-550px */
+
+img {
+  width: 100%;
+}
+
+div {
+  background-color: ;
+}
+
+.header {
+  border: 3px solid black;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic_container {
+  width: 90%;
+  max-width: 980px;
+  padding: 40px;
+  border: 20px solid orangered;
+  margin: 0 auto;
+}
+
+
+/* Desktop */
+/* screen 550px+ */
+
+
+header{
+  height: 50%;
+ }
+
+ body{
+  display:flex;
+}
+
+.gallery{
+
+  flex-direction: column;
+
+}
+
+
+
+
+@media(min-width: 550px){
+ 
+}
